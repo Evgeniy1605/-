@@ -1,0 +1,15 @@
+﻿@model DirectoryModel
+
+@{
+    //var Files = Model.Files.ToString().Split(";");
+
+}
+<h1 class="text-center">@Model.Name</h1>
+@foreach (var item in Model.ArrFiles.ToList())
+{
+    <form method="post" asp-action="ReflactFile" asp-controller="Directory">
+        <input type="hidden" name="name" value="@item" />
+        <button class="link-info" type="submit">@System.IO.Path.GetFileName(item)</button>
+    </form>
+    <br />
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Directory\Creating Digital Images\Evidence\" />
+    <Folder Include="wwwroot\Directory\Creating Digital Images\Graphic Products\Final Product\" />
+    <Folder Include="wwwroot\Directory\Creating Digital Images\Graphic Products\Process\" />
+    <Folder Include="wwwroot\Directory\Creating Digital Images\Resources\Secondary Resources\" />
+    <Folder Include="wwwroot\Directory\Creating Digital Images\Resources\Primary Resources\" />
+  </ItemGroup>
+
+</Project>
