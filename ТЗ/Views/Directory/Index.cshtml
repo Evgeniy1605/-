@@ -4,7 +4,7 @@
     //var Files = Model.Files.ToString().Split(";");
 
 }
-<h1 class="text-center">@Model.Name</h1>
+<h1 class="text-center"> "Folder" - @Model.Name</h1>
 @foreach (var item in Model.ArrFiles.ToList())
 {
     <form method="post" asp-action="ReflactFile" asp-controller="Directory">

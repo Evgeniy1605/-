@@ -13,7 +13,13 @@ namespace ТЗ.Controllers
             _environment = environment;
         }
 
+
+        public IActionResult HomePage()
+        {
+            return View();
+        }
          
+        public List<string> Directories { get; set; }
         public IActionResult Index()
         {
             var path = Path.Combine(_environment.WebRootPath, "Directory");
@@ -33,12 +39,6 @@ namespace ТЗ.Controllers
             return View("Index", model);
         }
 
-        [HttpPost]
-        public IActionResult GetRepositiry( List<IFileInfo> File)
-        {
 
-            
-            return View("Index");
-        }
     }
 }
