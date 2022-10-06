@@ -28,7 +28,7 @@ namespace ТЗ.Controllers
         
         public IActionResult Index()
         {
-            var path = Path.Combine(_environment.WebRootPath, "Directory", "Creating Digital Images");
+            var path = Path.Combine(_environment.WebRootPath,"lib", "Directory", "Creating Digital Images");
             string[] files = Directory.GetDirectories(path);
             DirectoryModel model = new DirectoryModel();
             model.ArrFiles = files;

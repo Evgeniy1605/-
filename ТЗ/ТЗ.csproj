@@ -12,6 +12,11 @@
     <Folder Include="wwwroot\Directory\Creating Digital Images\Graphic Products\Process\" />
     <Folder Include="wwwroot\Directory\Creating Digital Images\Resources\Secondary Resources\" />
     <Folder Include="wwwroot\Directory\Creating Digital Images\Resources\Primary Resources\" />
+    <Folder Include="wwwroot\lib\Directory\Creating Digital Images\Evidence\" />
+    <Folder Include="wwwroot\lib\Directory\Creating Digital Images\Graphic Products\Final Product\" />
+    <Folder Include="wwwroot\lib\Directory\Creating Digital Images\Graphic Products\Process\" />
+    <Folder Include="wwwroot\lib\Directory\Creating Digital Images\Resources\Primary Resources\" />
+    <Folder Include="wwwroot\lib\Directory\Creating Digital Images\Resources\Secondary Resources\" />
   </ItemGroup>
 
 </Project>
